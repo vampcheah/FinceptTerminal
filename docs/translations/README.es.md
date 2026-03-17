@@ -20,26 +20,26 @@ Plataforma de inteligencia financiera de última generación con análisis de ni
 
 ## Acerca de
 
-**Terminal fincept vch**es una aplicación de escritorio nativa pura de C++20: una reescritura completa de la pila anterior de Tauri/React/Rust. se utiliza**Estimado ImGui**para interfaz de usuario acelerada por GPU,**GLFW+OpenGL**para renderizado, incrustado**Pitón**para análisis y ofrece rendimiento de clase terminal Bloomberg en un único binario nativo.
+**Terminal fincept vch** is a pure native C++20 desktop application — a complete rewrite from the previous Tauri/React/Rust stack. It uses **Estimado ImGui**para interfaz de usuario acelerada por GPU,**GLFW+OpenGL**para renderizado, incrustado**Pitón**para análisis y ofrece rendimiento de clase terminal Bloomberg en un único binario nativo.
 
 * * *
 
 ## Pila de tecnología
 
-| Capa                         | Tecnologías                                    |
-| ---------------------------- | ---------------------------------------------- |
-| **Idioma**                   | C++20 (MSVC/GCC/Clang)                         |
-| **interfaz de usuario**      | Estimado ImGui (rama de acoplamiento) + ImPlot |
-| **Disposición**              | Yoga (motor Flexbox)                           |
-| **Representación**           | GLFW 3 + OpenGL 3.3+                           |
-| **Redes**                    | libcurl+OpenSSL                                |
-| **Base de datos**            | SQLite 3                                       |
-| **Publicación por entregas** | nlohmann/json                                  |
-| **Explotación florestal**    | spdlog                                         |
-| **Audio**                    | miniaudio                                      |
-| **Video**                    | libmpv (opcional)                              |
-| **Analítica**                | Python integrado 3.11+ (más de 100 scripts)    |
-| **Construir**                | CMake 3.20+ / vcpkg                            |
+| Capa                         | Tecnologías                                 |
+| ---------------------------- | ------------------------------------------- |
+| **Idioma**                   | C++20 (MSVC/GCC/Clang)                      |
+| **interfaz de usuario**      | Dear ImGui (docking branch) + ImPlot        |
+| **Disposición**              | Yoga (motor Flexbox)                        |
+| **Representación**           | GLFW 3 + OpenGL 3.3+                        |
+| **Redes**                    | libcurl+OpenSSL                             |
+| **Base de datos**            | SQLite 3                                    |
+| **Publicación por entregas** | nlohmann/json                               |
+| **Explotación florestal**    | spdlog                                      |
+| **Audio**                    | miniaudio                                   |
+| **Video**                    | libmpv (opcional)                           |
+| **Analítica**                | Python integrado 3.11+ (más de 100 scripts) |
+| **Construir**                | CMake 3.20+ / vcpkg                         |
 
 * * *
 
@@ -48,7 +48,7 @@ Plataforma de inteligencia financiera de última generación con análisis de ni
 | **Característica**                   | **Descripción**                                                                                                           |
 | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------- |
 | 📊**Análisis a nivel CFA**           | Modelos DCF, optimización de cartera, métricas de riesgo (VaR, Sharpe), precios de derivados a través de Python integrado |
-| 🤖**Agentes de IA**                  | Más de 20 personas de inversores (Buffett, Dalio, Graham), estrategias de fondos de cobertura, soporte local de LLM       |
+| 🤖**Agentes de IA**                  | 20+ investor personas (Buffett, Dalio, Graham), hedge fund strategies, local LLM support                                  |
 | 🌐**Más de 100 conectores de datos** | DBnomics, Polygon, Kraken, Yahoo Finance, FRED, FMI, Banco Mundial, AkShare, API gubernamentales                          |
 | 📈**Comercio en tiempo real**        | Cripto (Kraken/HyperLiquid WebSocket), acciones, comercio algorítmico, motor de comercio de papel                         |
 | 🔬**Suite QuantLib**                 | 18 módulos de análisis cuantitativo: fijación de precios, riesgo, estocástico, volatilidad, renta fija                    |
@@ -113,11 +113,11 @@ glfw3, curl, nlohmann-json, sqlite3, openssl, imgui (acoplamiento + tipo libre),
 
 ## Lo que nos diferencia
 
-**Terminal Fincept**es una plataforma financiera de código abierto creada para aquellos que se niegan a verse limitados por el software tradicional. Competimos en**profundidad analítica**y**accesibilidad a los datos**– no en información privilegiada ni en feeds exclusivos.
+**Fincept Terminal**es una plataforma financiera de código abierto creada para aquellos que se niegan a verse limitados por el software tradicional. Competimos en**profundidad analítica**y**accesibilidad a los datos**– no en información privilegiada ni en feeds exclusivos.
 
 -   **Rendimiento nativo**— C++ con ImGui acelerado por GPU, sin sobrecarga de Electron/web
 -   **binario único**— sin Node.js, sin tiempo de ejecución del navegador, sin paquete de JavaScript
--   **Análisis a nivel CFA**— cobertura curricular completa a través de módulos de Python
+-   **CFA-level analytics**— cobertura curricular completa a través de módulos de Python
 -   **Más de 100 conectores de datos**— desde Yahoo Finance hasta las bases de datos gubernamentales
 -   **Gratis y de código abierto**(AGPL-3.0) con licencias comerciales disponibles
 
@@ -135,7 +135,7 @@ Estamos construyendo juntos el futuro del análisis financiero.
 
 **Contribuir:**Nuevos conectores de datos, agentes de IA, módulos de análisis, pantallas C++, documentación
 
--   [Guía contribuyente](docs/CONTRIBUTING.md)
+-   [Contributing Guide](docs/CONTRIBUTING.md)
 -   [Guía de contribución de C++](fincept-cpp/CONTRIBUTING.md)
 -   [Guía para contribuyentes de Python](docs/PYTHON_CONTRIBUTOR_GUIDE.md)
 -   [Informar error](https://github.com/Fincept-Corporation/FinceptTerminal/issues)
