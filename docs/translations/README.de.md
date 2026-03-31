@@ -179,7 +179,7 @@ cmake --build build --config Release --parallel
 | ------------------- | ----------------------------------------------------------------------------------- |
 | **1. Quartal 2026** | Echtzeit-Streaming, erweitertes Backtesting, Broker-Integrationen                   |
 | **Erbrechen 2026**  | Optionsstrategie-Builder, Multi-Portfolio-Management, über 50 KI-Agenten            |
-| **Kz 2026**         | Programmatische API, Benutzeroberfläche für ML-Training, institutionelle Funktionen |
+| **KZ 2026**         | Programmatische API, Benutzeroberfläche für ML-Training, institutionelle Funktionen |
 | **Zukunft**         | Mobiler Begleiter, Cloud-Synchronisierung, Community-Marktplatz                     |
 
 * * *

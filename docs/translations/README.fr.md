@@ -179,7 +179,7 @@ cmake --build build --config Release --parallel
 | --------------------- | -------------------------------------------------------------------------------------------- |
 | **T1 2026**           | Streaming en temps réel, backtesting avancé, intégrations de courtiers                       |
 | **vomissements 2026** | Constructeur de stratégie d'options, gestion multi-portefeuilles, plus de 50 agents IA       |
-| **Kz 2026**           | API programmatique, interface utilisateur de formation ML, fonctionnalités institutionnelles |
+| **KZ 2026**           | API programmatique, interface utilisateur de formation ML, fonctionnalités institutionnelles |
 | **Avenir**            | Compagnon mobile, synchronisation cloud, marché communautaire                                |
 
 * * *

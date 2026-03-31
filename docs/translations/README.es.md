@@ -20,7 +20,7 @@ Plataforma de inteligencia financiera de última generación con análisis de ni
 
 ## Acerca de
 
-**Terminal fincept vch**es una aplicación de escritorio nativa pura de C++20: una reescritura completa de la pila anterior de Tauri/React/Rust. se utiliza**Qt6**para interfaz de usuario y renderizado, integrado**Pitón**para análisis y ofrece rendimiento de clase terminal Bloomberg en un único binario nativo.
+**Terminal fincept vch**es una aplicación de escritorio nativa pura de C++20: una reescritura completa de la pila anterior de Tauri/React/Rust. se utiliza**qt6**para interfaz de usuario y renderizado, integrado**Pitón**para análisis y ofrece rendimiento de clase terminal Bloomberg en un único binario nativo.
 
 * * *
 
@@ -106,7 +106,7 @@ docker run --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix fincept-ter
 | **git**                | el último | `winget install Git.Git`                                          | `apt install git`     | `brew install git`                 |
 | **Chacer**             | 3.20+     | `winget install Kitware.CMake`                                    | `apt install cmake`   | `brew install cmake`               |
 | **compilador de C ++** | C++20     | MSVC 2022 ([estudio visual](https://visualstudio.microsoft.com/)) | `apt install g++`     | Xcode CLT:`xcode-select --install` |
-| **Qt6**                | 6.5+      | Vea abajo                                                         | Vea abajo             | Vea abajo                          |
+| **qt6**                | 6.5+      | Vea abajo                                                         | Vea abajo             | Vea abajo                          |
 | **Pitón**              | 3.11+     | [python.org](https://www.python.org/downloads/)                   | `apt install python3` | `brew install python`              |
 
 #### Instalar Qt6
@@ -179,7 +179,7 @@ cmake --build build --config Release --parallel
 | ---------------------------- | ---------------------------------------------------------------------------------------------------------------- |
 | **Primer trimestre de 2026** | Transmisión en tiempo real, backtesting avanzado, integraciones de corredores                                    |
 | **vómitos 2026**             | Creador de estrategias de opciones, gestión de carteras múltiples, más de 50 agentes de IA                       |
-| **2026**                     | API programática, interfaz de usuario de capacitación de aprendizaje automático, características institucionales |
+| **KZ 2026**                  | API programática, interfaz de usuario de capacitación de aprendizaje automático, características institucionales |
 | **Futuro**                   | Compañero móvil, sincronización en la nube, mercado comunitario                                                  |
 
 * * *
@@ -198,7 +198,7 @@ Estamos construyendo juntos el futuro del análisis financiero.
 
 * * *
 
-## Para universidades y educadores
+## For Universities & Educators
 
 **Lleve análisis financieros de nivel profesional a su salón de clases.**
 
@@ -215,7 +215,7 @@ Estamos construyendo juntos el futuro del análisis financiero.
 
 ## Licencia
 
-**Dual Licensed: AGPL-3.0 (Open Source) + Commercial**
+**Licencia dual: AGPL-3.0 (código abierto) + Comercial**
 
 ### Código abierto (AGPL-3.0)
 
